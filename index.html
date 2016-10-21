@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="node_modules/semantic-ui/dist/semantic.css">
+	<title>what a day</title>
+</head>
+<body>
+	<h1>What day is it ?</h1>
+	<span>Jour</span>
+
+
+	<div class="ui grid">
+
+
+		<div class="three wide column">
+				</div>
+
+	
+	<input id="jour" type="number" name="jour">
+	
+	
+	<div class="three wide column">
+	</div>
+
+	<span>Mois</span>
+	<select id="mois">
+		<option></option>
+		<option>janvier</option>
+		<option>février</option>
+		<option>mars</option>
+		<option>avril</option>
+		<option>mai</option>
+		<option>juin</option>
+		<option>juillet</option>
+		<option>août</option>
+		<option>septembre</option>
+		<option>octobre</option>
+		<option>novembre</option>
+		<option>décembre</option>
+	</select>
+		<span>Année</span>
+	<div class="three wide column">
+	</div>
+	
+	<input id="annee" type="text" name="annee">
+	
+	</div>
+	
+	<button class="ui blue button">Vérifier</button>
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="node_modules/momentjs/moment.js"></script>
+	<script src="node_modules/semantic-ui/dist/semantic.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>
