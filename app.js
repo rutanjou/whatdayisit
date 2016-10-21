@@ -27,12 +27,15 @@
 			}else {
 				console.log("Error");
 			};
-			console.log(app.jour+'/'+app.mounth+'/'+app.year);
+			console.log(app.mounth + '/'+ app.jour +'/'+ app.year);
 		},
 		affiche: function(){
-			var date = moment(app.jour+'/'+app.mounth+'/'+app.year);
-			var dow = date.day();
-			console.log(dow);
+			var date = moment(app.jour +'/'+ app.mounth +'/'+ app.year);
+			var jour = date.format("dddd",'fr');
+			console.log(jour);
+			
+
+
 
 		},
 
